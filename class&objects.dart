@@ -23,11 +23,13 @@ void main(){
 
 // That is Class
 class Persons{
+  // here Name, age, FatherName & isStudent is peramiters
   String? Name;
   int? age;
   String? FatherName;
   bool? isStudent;
-
+ 
+//  here getValue is function & void is not get (return value)
   void getvalue(){
     print("My Name is: $Name");
     print("My Father'name is: $FatherName");

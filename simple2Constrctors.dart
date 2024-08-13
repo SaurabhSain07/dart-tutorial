@@ -1,9 +1,9 @@
 class Person{
   String? name;
   int? age;
-
+  
+  // second type to writing constractor
   Person(this.name, this.age);
-
   void display(){
     print("My Name is: ${this.name}");
     print("My age is: ${this.age}");
